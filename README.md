@@ -37,3 +37,8 @@ install.packages("XML")
 特許の詳細ページから、情報を取得
 
 *patent_link.r* → *patent_detail.r* の順で実行することで特許の詳細についてスクレイピングが可能
+
+```r
+r patent_link.r
+r patent_detail.r
+```
